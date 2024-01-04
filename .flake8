@@ -1,0 +1,17 @@
+[flake8]
+ignore =
+    W503
+    Q000
+    Q002
+    F821
+exclude =
+    */tests/,
+    */migrations/,
+    */.venv/,
+    .venv/,
+    venv/,
+    env/,
+    .git,
+    .env,
+max-complexity = 8
+max-line-length = 120
